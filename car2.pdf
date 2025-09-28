@@ -1,0 +1,22 @@
+#incloude <iostream>
+using namespace std;
+
+class car {
+public:
+streng color;
+streng name;
+int year;
+
+void print () {
+cout<< "name: " <<name<<"Color: " << color <"Year: " <<year << endl;}
+
+
+int main () {
+car car1;
+car1.color="red";
+car1.name="camery";
+car1.year=2019;
+
+car.print();
+
+return 0 ; }
